@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zerodha Landing Page</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 100px;
+        box-shadow: 2px 1px 2px #eee;
+      }
+      .nav-links {
+        display: flex;
+      }
+      .nav-item {
+        padding-left: 30px;
+        color: #666;
+        font-size: medium;
+        cursor: pointer;
+        transition: color 0.2s;
+      }
+      .nav-item:hover {
+        color: #387ed1;
+      }
+      .main-image {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      .center {
+        display: flex;
+        justify-content: center;
+      }
+      .main-title {
+        font-weight: 500;
+        font-size: xx-large;
+      }
+      .main-desc {
+        font-size: 1.2rem;
+      }
+      .signup-btn {
+        background-color: #387ed1;
+        color: white;
+        padding: 10px 30px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+      }
+      button.signup-btn:hover {
+        background-color: #33335e;
+        color: #fff;
+        box-shadow: 0 2px 8px #888;
+      }
+      .signup-btn-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="">
+        <img width="150" src="zerodhalogo.svg" alt="zerodha logo image" />
+      </a>
+      <div class="nav-links">
+        <div class="nav-item">Signup</div>
+        <div class="nav-item">About</div>
+        <div class="nav-item">Products</div>
+        <div class="nav-item">Pricing</div>
+        <div class="nav-item">Support</div>
+      </div>
+    </div>
+    <div class="main-image">
+      <img width="700" src="analysis.png" alt="Zerodha landing page image" />
+    </div>
+    <div class="center">
+      <h1 class="main-title">Invest in everything</h1>
+    </div>
+    <div class="center">
+      <h3 class="main-desc">
+        Online platform to invest in stocks, derivatives, mutual funds, ETFs,
+        bonds, and more.
+      </h3>
+    </div>
+    <div class="signup-btn-container">
+      <button class="signup-btn">Sign up for free</button>
+    </div>
+  </body>
+</html>
