@@ -1,0 +1,69 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body > #container {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  padding: 20px 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  transition: background 0.3s;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22), 0 1.5px 6px rgba(0, 0, 0, 0.1);
+  /* Enhanced shadow for more depth */
+}
+
+body > #container > #btn-container > .btn {
+  border-radius: 7px;
+  padding: 7px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.18s, box-shadow 0.18s, filter 0.18s;
+}
+
+body > #container > #btn-container > .red {
+  background-color: red;
+}
+body > #container > #btn-container > .green {
+  background-color: green;
+  color: white;
+}
+body > #container > #btn-container > .blue {
+  background-color: blue;
+  color: white;
+}
+body > #container > #btn-container > .pink {
+  background-color: pink;
+}
+body > #container > #btn-container > .btn:hover {
+  transform: translateY(-3px) scale(1.07);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.13);
+  filter: brightness(1.08);
+}
+body > #container > #btn-container > .btn:hover {
+  transform: translateY(-3px) scale(1.07);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.13);
+  filter: brightness(1.08);
+}
+
+body > #container > #add-btn-container > #add-btn {
+  cursor: pointer;
+  transition: transform 0.18s, box-shadow 0.18s, filter 0.18s;
+}
+
+body > #container > #add-btn-container > #add-btn:hover {
+  transform: translateY(-3px) scale(1.07);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.13);
+  filter: brightness(1.08);
+}
